@@ -1,27 +1,13 @@
-import React, {useState, useEffect} from 'react'
-import { supabase } from './createClient'
+import Navbar from './components/universal/Navbar';
+import Hero from './components/home/Hero';
 
 const App = () => {
-  const [users,setUsers]= useState([])
-  
-  useEffect(() => {
-    fetchUsers()
-  }, [])
-  
-  
-  async function fetchUsers() {
-    const {data} = await supabase
-    .from('users')
-    .select('*')   
-    setUsers(data)
-    console.log(data)
-  }
-
   return (
-    <div>
-      App
+    <div className="min-h-screen bg-primary-cream">
+      <Navbar />
+      <Hero />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
