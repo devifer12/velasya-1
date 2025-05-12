@@ -1,13 +1,9 @@
-import Navbar from './components/universal/Navbar';
-import Hero from './components/home/Hero';
+import React from 'react'
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-primary-cream">
-      <Navbar />
-      <Hero />
-    </div>
-  );
-};
+    <div>App</div>
+  )
+}
 
-export default App;
+export default App

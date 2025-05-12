@@ -1,9 +1,9 @@
-const Logo = ({ className = '' }) => {
-  return (
-    <h1 className={`text-2xl font-bold text-primary-gold ${className}`}>
-      Velasya
-    </h1>
-  );
-};
+import React from 'react'
 
-export default Logo;
+const Logo = () => {
+  return (
+    <div>Logo</div>
+  )
+}
+
+export default Logo
