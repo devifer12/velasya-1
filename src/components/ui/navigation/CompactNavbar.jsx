@@ -3,7 +3,7 @@ import GetStarted from "../auth/GetStarted";
 
 const CompactNavbar = ({ onHamburgerClick }) => {
   return (
-    <div className="flex items-center justify-end my-16 mx-32">
+    <div className="cursor-pointer flex items-center justify-end my-[2%] mx-[4.5%]">
       <div>
         <GetStarted />
       </div>

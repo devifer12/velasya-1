@@ -13,8 +13,10 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #F5EFE6;
 }
 
 #root {
   min-height: 100vh;
+  font-family: 'marko one';
 }

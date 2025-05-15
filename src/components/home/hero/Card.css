@@ -1,50 +1,39 @@
-.heroCard1 {
-    height:100%;
-    width:18% ;
-    background-color: black ;
-    border-radius: 6%;
-    transform: translate(20%, 35%) rotate(-25deg);
-    z-index: -1;
-    opacity: 60%;
-    transition: all 0.6s ease-in-out;
+.heroCard {
+  position: absolute;
+  height: 100%;
+  width: 18%;
+  background-color: black;
+  border-radius: 6%;
+  transition: all 1.2s cubic-bezier(0.45, 0.05, 0.55, 0.95);
+  transform-origin: center 150%;
 }
 
-.heroCard2 {
-    height:100%;
-    width:18% ;
-    background-color: black ;
-    border-radius: 6%;
-    transform: translate(9% , 9%) rotate(-15deg);
-    opacity: 75%;
-    transition: all 0.6s ease-in-out;
+.position-1 {
+  transform: translate(-140%, 25%) rotate(-20deg) ;
+  z-index: 1;
+  opacity: 0.8;
 }
 
-.heroCard3 {
-    height:100%;
-    width:18% ;
-    background-color: black ;
-    border-radius: 6%;
-    z-index: 1;
-    transition: all 0.6s ease-in-out;
+.position-2 {
+  transform: translate(-65%, 7%) rotate(-12deg) ;
+  z-index: 2;
+  opacity: 0.9;
 }
 
-.heroCard4 {
-    height:100%;
-    width:18% ;
-    background-color: black ;
-    border-radius: 6%;
-    transform: translate(-9% , 9%) rotate(15deg);
-    opacity: 75%;
-    transition: all 0.6s ease-in-out;
+.position-3 {
+  transform: translate(0, 0) rotate(0deg) ;
+  z-index: 5;
+  opacity: 1;
 }
 
-.heroCard5 {
-    height:100%;
-    width:18% ;
-    background-color: black ;
-    border-radius: 6%;
-    z-index: -1;
-    transform: translate(-20%, 35%) rotate(25deg);
-    opacity: 60%;
-    transition: all 0.6s ease-in-out;
+.position-4 {
+  transform: translate(65%, 7%) rotate(12deg) ;
+  z-index: 2;
+  opacity: 0.9;
+}
+
+.position-5 {
+  transform: translate(140%, 25%) rotate(20deg) ;
+  z-index: 1;
+  opacity: 0.8;
 }

@@ -22,7 +22,7 @@ const Navbar = () => {
         return;
     }
 
-      if (currentScrollY > lastScrollY && currentScrollY > 30) {
+      if (currentScrollY > lastScrollY && currentScrollY > 0) {
         //scrolling down
         setShowFullNavbar(false);
       } else {
@@ -45,7 +45,7 @@ const Navbar = () => {
         className={`transition-transorm duration-500 ease-in-out ${
           showFullNavbar ? "translate-y-14" : "-translate-y-full"
         }`}>
-        <FullNavbar />
+        <FullNavbar scrolled={lastScrollY > 0}/>
       </div>
 
       <div

@@ -11,10 +11,11 @@ const CurveHeroText = ({ text = "MOST BIDDED AUCTION" }) => {
         style={{ overflow: "visible" }}>
         <defs>
           {/* Arc path adjusted to be shallower and lower to reduce white space */}
-          <path id="ellipsePath" d="M 0,400 A 500,120 0 0,1 1650,420" />
+          <path id="ellipsePath" d="M 0,400 A 700,150 0 0,1 1650,420" />
         </defs>
         <text
           fill="black"
+          filter="drop-shadow(0px 8px 6px rgba(0, 0, 0, 0.5))"
           fontSize="150"
           fontWeight="800"
           letterSpacing="3"
@@ -30,3 +31,4 @@ const CurveHeroText = ({ text = "MOST BIDDED AUCTION" }) => {
 };
 
 export default CurveHeroText;
+
