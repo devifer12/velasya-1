@@ -22,7 +22,7 @@ const Navbar = () => {
         return;
     }
 
-      if (currentScrollY > lastScrollY && currentScrollY > 50) {
+      if (currentScrollY > lastScrollY && currentScrollY > 30) {
         //scrolling down
         setShowFullNavbar(false);
       } else {

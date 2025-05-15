@@ -6,7 +6,10 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      {/* <Hero /> */}
+      <Hero />
+      <div className="h-[500px] ">
+        
+      </div>
     </div>
   );
 };

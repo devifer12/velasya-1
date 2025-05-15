@@ -1,0 +1,46 @@
+.heroCard1 {
+    height:100%;
+    width:18% ;
+    background-color: black ;
+    border-radius: 6%;
+    transform: translate(20%, 35%) rotate(-25deg);
+    z-index: -1;
+    opacity: 80%;
+}
+
+.heroCard2 {
+    height:100%;
+    width:18% ;
+    background-color: black ;
+    border-radius: 6%;
+    transform: translate(9% , 9%) rotate(-15deg);
+    opacity: 90%;
+}
+
+.heroCard3 {
+    height:100%;
+    width:18% ;
+    background-color: black ;
+    border-radius: 6%;
+    z-index: 1;
+}
+
+.heroCard4 {
+    height:100%;
+    width:18% ;
+    background-color: black ;
+    border-radius: 6%;
+    transform: translate(-9% , 9%) rotate(15deg);
+    opacity: 90%;
+}
+
+.heroCard5 {
+    height:100%;
+    width:18% ;
+    background-color: black ;
+    border-radius: 6%;
+    z-index: -1;
+    transform: translate(-20%, 35%) rotate(25deg);
+    opacity: 80%;
+}
+
